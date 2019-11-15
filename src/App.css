@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html,
+body {
+  line-height: 1;
+  font-family: "Roboto Condensed", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.site-container {
+  max-width: 960px;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+header {
+  padding: 26px;
+}
+.header-h1 {
+  font-size: 70px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+
+.header-h2 {
+  display: flex;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .site-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header-h1 {
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+  }
+
+  .header-h2 {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+  }
+}
+
+.header-link {
+  font-family: "Playfair Display", serif;
+  color: #0e860e;
+  font-weight: 400;
+}
+
+.lunch-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.row-card {
+  /* background: #f3fff1;
+  margin-bottom: 20px;
+  box-shadow: 5px 8px #f9f9f980;
+  border-radius: 2px;
+  padding: 6px; */
+  background: #000000;
+  margin-bottom: 20px;
+  /* box-shadow: 5px 8px #252525; */
+  border-radius: 2px;
+  padding: 6px;
+}
+.row-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 6fr 1fr;
+  grid-gap: 4px;
+  padding: 4px;
+}
+
+.row-container p {
+  padding: 4px 0px;
+  color: white;
+  font-size: 19px;
+}
+.row-title {
+  color: white;
+  font-size: 26px;
+  padding: 20px 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row-container p {
+    font-size: 16px;
+  }
+  .row-title {
+    font-size: 20px;
+  }
+}
+
+.section {
+  margin-top: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.info {
+  padding: 10px 20px;
+  background: #ce2c37;
+  margin-bottom: 20px;
+  /* box-shadow: 5px 8px #ae1f29; */
+  border-radius: 2px;
+  color: white;
+}
+
+.info,
+.info-footer > p {
+  line-height: 1.6;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.info,
+.info-footer > a {
+  line-height: 1.6;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.info-footer {
+  padding: 14px 4px;
+  background: #ce2c37;
+  /* margin-bottom: 20px; */
+  /* box-shadow: 5px 8px #296c3f; */
+  border-radius: 2px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .info-footer {
+    flex-direction: column;
+  }
+}
+
+.info-footer > p {
+  font-size: 14px;
+  padding: 4px;
+}
+
+.info-footer > a {
+  font-size: 14px;
+  padding: 4px;
+}
+
+.info-box-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: -30px;
+}
+
+.info-box {
+  height: 20px;
+  padding: 20px;
+  background: #229046;
+  color: white;
+  border-radius: 2px;
+  font-size: 20px;
+  margin-bottom: 6px;
+  width: calc(100% - 40px);
+  text-align: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .info-box {
+    height: 50px;
+    padding: 8px;
+    width: calc(100% - 16px);
+  }
+}

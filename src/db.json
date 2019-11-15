@@ -1,0 +1,1037 @@
+{
+  "menu": {
+    "lunch": {
+      "title": "Dagens lunch mellan kl 10-14 (inkluderar salladbuffe, bröd, dricka och kaffe)",
+      "items": [
+        {
+          "id": "",
+          "name": "Dagens lunch 1",
+          "description": "Pizza prisklass 1-3, kebab, sallader mackor och rullar",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "",
+          "name": "Dagens lunch 2",
+          "description": "Pizza prisklass 4-5, deli pizzor, mexikanska pizzor och pastarätter.",
+          "price": "110",
+          "priceClass": "4"
+        },
+        {
+          "id": "",
+          "name": "Husmanskost",
+          "description": "(Pensionärspris 65:-)",
+          "price": "100",
+          "priceClass": "2"
+        }
+      ]
+    },
+    "priceClassOne": {
+      "title": "Prisklass 1",
+      "items": [
+        {
+          "id": "1101",
+          "name": "Margherita",
+          "description": "Tomatsås, ost",
+          "price": "95",
+          "priceClass": "1"
+        },
+        {
+          "id": "1102",
+          "name": "Vesuvio",
+          "description": "Tomatsås, ost, skinka",
+          "price": "95",
+          "priceClass": "1"
+        },
+        {
+          "id": "1103",
+          "name": "Bolognes",
+          "description": "Tomatsås,ost,köttfärs",
+          "price": "95",
+          "priceClass": "1"
+        },
+        {
+          "id": "1104",
+          "name": "Al Funghi",
+          "description": "Tomatsås,ost,f.champinijoner",
+          "price": "95",
+          "priceClass": "1"
+        },
+        {
+          "id": "1105",
+          "name": "Al Tonno",
+          "description": "Tomatsås,ost,tonfisk",
+          "price": "95",
+          "priceClass": "1"
+        }
+      ]
+    },
+    "priceClassTwo": {
+      "title": "Prisklass 2",
+      "items": [
+        {
+          "id": "1201",
+          "name": "Bussola",
+          "description": "Tomatsås, ost, skinka, räkor",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "1202",
+          "name": "Opera",
+          "description": "Tomatsås, ost, skinka, tonfisk",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "1203",
+          "name": "Hawaii",
+          "description": "Tomatsås, ost, skinka, ananas",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "1204",
+          "name": "Skälby",
+          "description": "Tomatsås, ost, skinka, banan, curry",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "1205",
+          "name": "Marinara",
+          "description": "Tomatsås, ost, räkor, musslor i skal",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "1206",
+          "name": "Capricciosa",
+          "description": "Tomatsås, ost, skinka, f.champinjoner",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "1207",
+          "name": "Calzone",
+          "description": "(inbakad) Tomatsås, ost, skinka",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "1208",
+          "name": "Spånga",
+          "description": "Tomatsås, ost, salami, lök",
+          "price": "100",
+          "priceClass": "2"
+        },
+        {
+          "id": "1209",
+          "name": "Räk pizza",
+          "description": "Tomatsås, ost, räkor",
+          "price": "100",
+          "priceClass": "2"
+        }
+      ]
+    },
+    "priceClassThree": {
+      "title": "Prisklass 3",
+      "items": [
+        {
+          "id": "1301",
+          "name": "Calzone spec (inbakad)",
+          "description": "Tomatsås, ost, skinka, räkor, f.champinjoner",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "1302",
+          "name": "Vegitariana",
+          "description": "Tomatsås, ost, lök, f.paprika, kronärtskocka, oliver, f.tomater, f.champinjoner",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "1303",
+          "name": "Ciao ciao",
+          "description": "Tomatsås, ost, skinka, f.champinjoner, räkor",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "1304",
+          "name": "Fårost",
+          "description": "Tomatsås, ost. grekisk fârost, f.paprika. oliver, f.tomater, lök",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "1305",
+          "name": "Gorgonzola",
+          "description": "Tomatsås, ost, skinka, gorgonzola",
+          "price": "105",
+          "priceClass": "3"
+        }
+      ]
+    },
+    "priceClassFour": {
+      "title": "Prisklass 4",
+      "items": [
+        {
+          "id": "1401",
+          "name": "Spenatpizza",
+          "description": "Tomatsås, ost, rödlök, fârost, oliver, soltorkade tomater, f.tomater, spenat",
+          "price": "110",
+          "priceClass": "4"
+        },
+        {
+          "id": "1402",
+          "name": "Dubbel calzone",
+          "description": "Tomatsås, ost, skinka (dubbelt inbakad)",
+          "price": "110",
+          "priceClass": "4"
+        },
+        {
+          "id": "1403",
+          "name": "Järfälla",
+          "description": "Tomatsås, ost, tonfisk, räkor, musslor i skal, kronärtskocka",
+          "price": "110",
+          "priceClass": "4"
+        },
+        {
+          "id": "1404",
+          "name": "Hässelby",
+          "description": "Tomatsås, ost, kyckling, jordnötter, banan, ananas, curry",
+          "price": "110",
+          "priceClass": "4"
+        },
+        {
+          "id": "1405",
+          "name": "Kycklingpizza",
+          "description": "Tomatsås, ost, kyckling, f.champinjoner, lök, f.tomater, f.paprika",
+          "price": "110",
+          "priceClass": "4"
+        }
+      ]
+    },
+    "priceClassFive": {
+      "title": "Prisklass 5",
+      "items": [
+        {
+          "id": "1501",
+          "name": "Oxfilé special",
+          "description": "Tomatsås, ost, lök, oxfilé, f.champinjoner, f.paprika, f.tomater, bearnaisesås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1502",
+          "name": "Gourmet",
+          "description": "Tomatsås, ost,oxfilé, sparris, kronärtskocka, f.tomater, lök, bearnaisesås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1503",
+          "name": "Läkarens",
+          "description": "Tomatsås, ost, fläskfilé, f.champinjoner, lök, bearnaisesås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1504",
+          "name": "Kebabpizza",
+          "description": "Tomatsås, ost, tomat, lök, fefferoni, kebabkött, vitlöksås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1505",
+          "name": "Inferno",
+          "description": "Tomatsås, ost, tonfisk, jalapeno, tacosås, tacokryddmix, vitlöksås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1506",
+          "name": "Viking special",
+          "description": "Tomatsås, ost, kebabkött / efter gräddning: vitlöksås, isbergssallad, lök, f.tomater (inbakad)",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1507",
+          "name": "Kebabpizza special",
+          "description": "Tomatsås, ost.kebabkött/efter gräddning: vitlöksås, isbergssallad, f.tomater",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1508",
+          "name": "Black and white",
+          "description": "Tomatsås, ost, fläskfilé, oxfilé, bearnesisesås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1509",
+          "name": "Super kebab pizza",
+          "description": "Tomatsås, ost, tonfisk, jalapeno, tacosås, tacokryddmix, vitlöksås",
+          "price": "130",
+          "priceClass": "5"
+        }
+      ]
+    },
+    "extradDescription": {
+      "title": "Utöka din pizza från menyn med någon/några av dessa ingredienser:",
+      "items": [
+        {
+          "id": "1001",
+          "name": "Oxfilé",
+          "price": "25"
+        },
+        {
+          "id": "1002",
+          "name": "Fläskfilé",
+          "price": "20"
+        },
+        {
+          "id": "1003",
+          "name": "Parmaskinka",
+          "price": "20"
+        },
+        {
+          "id": "1004",
+          "name": "Kebabkött",
+          "price": "20"
+        },
+        {
+          "id": "1005",
+          "name": "Gorgonzola",
+          "price": "20"
+        },
+        {
+          "id": "1006",
+          "name": "Mozarella",
+          "price": "20"
+        },
+        {
+          "id": "1007",
+          "name": "Scampi",
+          "price": "20"
+        },
+        {
+          "id": "1008",
+          "name": "Ruccola",
+          "price": "20"
+        },
+        {
+          "id": "1009",
+          "name": "Avocado",
+          "price": "20"
+        },
+        {
+          "id": "1010",
+          "name": "Fårost",
+          "price": "20"
+        },
+        {
+          "id": "1011",
+          "name": "Kyckling",
+          "price": "20"
+        },
+        {
+          "id": "1012",
+          "name": "Skinka",
+          "price": "20"
+        },
+        {
+          "id": "1013",
+          "name": "Räkor",
+          "price": "25"
+        },
+        {
+          "id": "1014",
+          "name": "Salami",
+          "price": "20"
+        },
+        {
+          "id": "1015",
+          "name": "Tonfisk",
+          "price": "20"
+        },
+        {
+          "id": "1016",
+          "name": "Övrigt",
+          "price": "10"
+        }
+      ]
+    },
+    "delicatePizzas": {
+      "title": "Delikates pizzor",
+      "items": [
+        {
+          "id": "1601",
+          "name": "Ruccola Special",
+          "description": "Tomatsås, f.mozzarella parmaskinka stark salami, breasola, soltorkade tomater, ruccola",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1602",
+          "name": "Salamina",
+          "description": "Tomatsås f.mozzarella, salami milano, lök, f.paprika gorgonzola",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1603",
+          "name": "Quattro Formaggio",
+          "description": "Tomatsås f.mozzarella, fårost.gorgonzola, chevreost",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1604",
+          "name": "Izabella",
+          "description": "Tomatsås, f.mozzarella, f.tomat,f.paprika, f.champinjoner, f.vitlök, basilika",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1605",
+          "name": "Chevre ostpizza",
+          "description": "Tomatsås, f.mozzarella parmaskinka, chevreost, vitlök. pesto, ruccola, vitlöksås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1606",
+          "name": "Venedig",
+          "description": "Tomatsås, f.mozzarella. chevreost,f.paprika pinjenötter, spenat, parmaskinka",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1607",
+          "name": "Italiana",
+          "description": "Tomatsås, f.mozzarella, f.tomater,f.vitök, salami napoli, f.basilika",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1608",
+          "name": "Mezza Luna",
+          "description": "Halvt inbakad- Ena halvan: Tomatsås, mozzarella, skinka/ Andra halvan: Tomatsås f.mozzarella parmaskinka, ruccola",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1609",
+          "name": "Gambero",
+          "description": "Tomatsås, f.mozzarella, scampi, räkor, vitlök, f. persilja",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1610",
+          "name": "Forno a legna",
+          "description": "Tomatsås f.mozzarella, parmaskinka, ruccola",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1611",
+          "name": "Frutti di mare",
+          "description": "Tomatsås, f.mozzarella, vitlök, blåmusslor, scampi, räkor",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1612",
+          "name": "Grabbarnas",
+          "description": "Tomatsås, f. mozzarella buffel mozzarella, pesto, stark salami.soltorkade tomater,oregano",
+          "price": "115",
+          "priceClass": "5"
+        }
+      ]
+    },
+    "mexicanPizzas": {
+      "title": "Mexikanska pizzor",
+      "items": [
+        {
+          "id": "1701",
+          "name": "Azteka",
+          "description": "Tomatsås, ost, skinka tacosås, jalapeno, , tacokryddmix, gräddfil",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1702",
+          "name": "Mexicana",
+          "description": "Tomatsås,ost, köttfärs, lök, f.paprika, f.tomat, pepperoni, stark krydda",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1703",
+          "name": "Acapulco",
+          "description": "Tomatsås, ost, oxfilé, tacokryddmix, f.vitlök, f.champinjoner, tacosås, lök. jalapeno",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "1704",
+          "name": "Den onde",
+          "description": "Tomatsås, ost, fläskfilé, jalapeno, f.paprika, f.tomater, lök, kryddmix, bearnaisesås",
+          "price": "115",
+          "priceClass": "5"
+        }
+      ]
+    },
+    "houseSandwitches": {
+      "title": "Husets Mackor (isbergssallad, tomat, gurka & valfridressing ingår i alla mackor)",
+      "items": [
+        {
+          "id": "2101",
+          "name": "Bland",
+          "description": "Skinka, räkor, kyckling ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2102",
+          "name": "Kyckling",
+          "description": "Kyckling, majs, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2103",
+          "name": "Räk",
+          "description": "Räkor, champinjoner, majs, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2104",
+          "name": "Skink",
+          "description": "Skinka, ost ",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2105",
+          "name": "Tonfisk",
+          "description": "Tonfisk, rödlök, majs, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2106",
+          "name": "Svea",
+          "description": "Skinka, räkor, majs, ost ",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2107",
+          "name": "Kebab",
+          "description": "Kebab, rödlök, fefferoni",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2108",
+          "name": "Vegetarisk",
+          "description": "Champ,oliver, rödlök, paprika, majs, sparris, ost",
+          "price": "105",
+          "priceClass": "3"
+        }
+      ]
+    },
+    "breadRolls": {
+      "title": "Tunnbrödsrullar (isbergssallad, tomat, gurka & valfridressing ingår i alla mackor)",
+      "items": [
+        {
+          "id": "2201",
+          "name": "Kycklingrulle",
+          "description": "Rödlök, kyckling ",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2202",
+          "name": "Räkrulle",
+          "description": "Rödlök, räkor",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2203",
+          "name": "Skinkrulle",
+          "description": "Skinka, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2204",
+          "name": "Tonfiskrulle",
+          "description": "Rödlök, tonfisk, fefferoni",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2205",
+          "name": "Avocadorulle",
+          "description": "Skinka, avocado.räkor,ost ",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2206",
+          "name": "Falafelrulle",
+          "description": "Pepperoni, stark mangosås ",
+          "price": "105",
+          "priceClass": "3"
+        }
+      ]
+    },
+    "kebabDishes": {
+      "title": "Kebabrätter",
+      "items": [
+        {
+          "id": "2301",
+          "name": "Kebab med bröd",
+          "description": "Isbergssallad, rödlök, tomat, fefferoni, kebabkött, vitlökssås",
+          "price": "85",
+          "priceClass": "3"
+        },
+        {
+          "id": "2302",
+          "name": "Kebabtallrik",
+          "description": "Kebab med pommes eller ris, grönsaker",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2303",
+          "name": "Kebabrulle",
+          "description": "Isbergsallad, rödlök, tomat, fefferoni, kebabkött, vitlokssås",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2304",
+          "name": "Kycklingtallrik",
+          "description": "Kycklingfilé med pommes eller ris",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2305",
+          "name": "Falafeltallrik",
+          "description": "Falafel med pommes eller ris",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "2306",
+          "name": "Ruccolarulle",
+          "description": "Ruccola, rödlök, soltorkade tomater,f.mozzarella, jalapeno",
+          "price": "110",
+          "priceClass": "3"
+        },
+        {
+          "id": "2307",
+          "name": "Mixtallrik",
+          "description": "Kebab och kyckling med pommes eller ris, grönsaker",
+          "price": "110",
+          "priceClass": "3"
+        },
+        {
+          "id": "2308",
+          "name": "Chicken nuggets",
+          "description": "Nuggets, pommes eller ris, curry dressing",
+          "price": "105",
+          "priceClass": "3"
+        }
+      ]
+    },
+    "grillDishes": {
+      "title": "Grillrätter",
+      "items": [
+        {
+          "id": "3101",
+          "name": "Hamburgare med bröd",
+          "description": "90 gr. 60:- / 150gr. 70:- / 200gr. 80:-",
+          "price": "",
+          "priceClass": ""
+        },
+        {
+          "id": "3102",
+          "name": "Hamburgarmeny (med pommes & läsk)",
+          "description": "90gr. 75:- / 150gr. 85:- / 200gr. 95:-",
+          "price": "",
+          "priceClass": ""
+        },
+        {
+          "id": "3103",
+          "name": "Lövbiff",
+          "description": "Med pommes och grönsaker.",
+          "price": "144",
+          "priceClass": ""
+        },
+        {
+          "id": "3104",
+          "name": "Entrecoté",
+          "description": "Med pommes och grönsaker",
+          "price": "164",
+          "priceClass": ""
+        },
+        {
+          "id": "3105",
+          "name": "Högrevburgare",
+          "description": "Med sötpotatis",
+          "price": "120",
+          "priceClass": ""
+        },
+        {
+          "id": "3106",
+          "name": "Lax",
+          "description": "Med sötpotatis och grönsaker",
+          "price": "120",
+          "priceClass": ""
+        }
+      ]
+    },
+    "pastaAlaPanna": {
+      "title": "Pasta ala Panna",
+      "items": [
+        {
+          "id": "4201",
+          "name": "Delice del gampidoglio",
+          "description": "Gratinerade pastarullar,fyllda med skinka zuccini, emmentalerost, tomatsås, grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4202",
+          "name": "Fettucine al pollo",
+          "description": "Strimlad kycklingfile, f.tomater, purjolök, spenat, olivolja, vitlök, sambal, ost(utan grädde)",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4203",
+          "name": "Fettucine al avocado",
+          "description": "Avocado, räkor, svart kaviar, vitlök chilipeppar, vitvin, sambal, gräddsås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4204",
+          "name": "Fettucine al Gorgonzola",
+          "description": "Skinka, gorgonzola, lök, gräddsås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4205",
+          "name": "Fettucine ala peppino",
+          "description": "Kycklingfilé, purjolök, olivolja, spenat curry, gräddsås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4206",
+          "name": "Rigatoni con carne",
+          "description": "Strimlad oxfilé, f.champinjoner, vitlök,grädde,f.tomat, chilipeppar,rödvinsås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4207",
+          "name": "Spaghetti carbonara",
+          "description": "Lök, bacon, svartpeppar, grädde, äggula",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4208",
+          "name": "Spaghetti bolognese",
+          "description": "Spaghetti med köttfärssås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4209",
+          "name": "Igatoni ala parma",
+          "description": "f.tomat, lök persilja, gorgonzolasås, parmaskinka.grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4210",
+          "name": "Rigatoni al salmone",
+          "description": "Purjolök, spenat, tärnade laxbitar,tomatsås,grädde, vitlök chili,svartpeppar",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4211",
+          "name": "Fettuchini al frutti di mare",
+          "description": "Scampi, räkor, krabba,musslor i skal,vitlök, chili,grädde, tomatsås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4212",
+          "name": "Rigatoni al vegetariane",
+          "description": "f.champinjoner,lök, aubergini, zuccini.oliver, kronärskocka,f.paprika, f.tomat,grädde,tomatsås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4213",
+          "name": "Canelloni",
+          "description": "Gratinerade pastarullar fyllda med köttfärs, ricottaost,spenat, tomatsås och grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4214",
+          "name": "Pasta scampi",
+          "description": "Räkor, scampi, pesto, vitlök, chilipeppar, vitvin, grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4215",
+          "name": "Fettucine al spinaci",
+          "description": "Bacon, kantareller, spenat, oliver, grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4216",
+          "name": "Rigatoni al grabbarma",
+          "description": "Fläskfilé, kantareller, gorgonzola, f.tomat, grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4217",
+          "name": "Lasses special",
+          "description": "Kyckling, purjolök, kantareller, tomatsås, grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4218",
+          "name": "Fettucine al mums",
+          "description": "Kantareller, gorgonzola, parmaskinka, ruccola, grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4219",
+          "name": "Fettucine al seafood",
+          "description": "Kräftskärtar, räkor, krabba, broccoli, vitvin basilika, grädde",
+          "price": "115",
+          "priceClass": "5"
+        }
+      ]
+    },
+    "gratinatedPasta": {
+      "title": "Gratinerade pastarätter",
+      "items": [
+        {
+          "id": "4101",
+          "name": "Pasta Pollo",
+          "description": "Kyckling f.paprika, lök, curry.grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4102",
+          "name": "La gorgonzola",
+          "description": "f.champinjoner,gorgonzola grädde",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4103",
+          "name": "Pasta paradiso",
+          "description": "Oxfilé, lök, f.champinjoner, tomat & gräddsås",
+          "price": "115",
+          "priceClass": "5"
+        },
+        {
+          "id": "4104",
+          "name": "Lasagne Paradiso",
+          "description": "Lasagneplattor, köttfärssås, ost",
+          "price": "115",
+          "priceClass": "5"
+        }
+      ]
+    },
+    "sallads": {
+      "title": "Sallader (isbergssallad, tomat och gurka ingår i alla sallader)",
+      "items": [
+        {
+          "id": "5101",
+          "name": "Räksallad",
+          "description": "Champinjoner, ananas, citron, majs, räkor, ägg, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5102",
+          "name": "Kycklingsallad",
+          "description": "Ananas, majs, kyckling, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5103",
+          "name": "Tonfisksallad",
+          "description": "Citron, majs, tonfisk, rödlök, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5104",
+          "name": "Skinksallad",
+          "description": "Skinka, ananas, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5105",
+          "name": "Vegetarisk sallad",
+          "description": "Champinjoner, rödlök, oliver, sparris, ananas, f.paprika, majs, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5106",
+          "name": "Grekisk sallad",
+          "description": "Ródlök, oliver,f.paprika, fârost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5107",
+          "name": "Husets sallad",
+          "description": "Skinka, räkor, champinjoner, majs, ananas, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5108",
+          "name": "Avocado sallad",
+          "description": "Avocado, skinka, räkor, citron, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5109",
+          "name": "Kebabsallad",
+          "description": "Kebabkött, pepperoni, rödlök",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5110",
+          "name": "Krabbsallad",
+          "description": "Krabbfisk, räkor, sparris, ost, citron",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5111",
+          "name": "Kräftstjärtssallad",
+          "description": "Krabba, avocado, kräftstjärtar, citron, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5112",
+          "name": "Canelloni",
+          "description": "Skinka, räkor, tonfisk, ananas, majs, ost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5113",
+          "name": "Pastasallad",
+          "description": "Tomat, champinjoner, paprika, pesto, pasta ruccola / Välj mellan parmaskinka, skinka, kyckling salami eller fårost",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5114",
+          "name": "Ceasarsallad",
+          "description": "Kyckling, hyvlad g.padano, rödlök, krutonger, ceasardressing",
+          "price": "105",
+          "priceClass": "3"
+        },
+        {
+          "id": "5115",
+          "name": "Falafelsallad",
+          "description": "Falafel, ost, pepperoni, lök, majs, paprika",
+          "price": "105",
+          "priceClass": "3"
+        }
+      ]
+    },
+    "other": {
+      "title": "Övrigt",
+      "items": [
+        {
+          "id": "",
+          "name": "Dricka",
+          "description": "30 cl 16:- / 50 cl 25:- / 2 l 35:-",
+          "price": "",
+          "priceClass": "0"
+        },
+        {
+          "id": "",
+          "name": "Öl",
+          "description": "Alla sorter",
+          "price": "59",
+          "priceClass": "0"
+        },
+        {
+          "id": "",
+          "name": "Vin",
+          "description": "",
+          "price": "49",
+          "priceClass": "0"
+        },
+        {
+          "id": "",
+          "name": "Dressing",
+          "description": "Rhode Island, Vitlöksås, Olja Balsamico, Curry, Blue Cheeze, Creme Fraiche, Italiensk, Ceasar",
+          "price": "15",
+          "priceClass": "0"
+        },
+        {
+          "id": "",
+          "name": "Pizzasallad",
+          "description": "",
+          "price": "15",
+          "priceClass": "0"
+        },
+        {
+          "id": "",
+          "name": "Vitlöksbröd",
+          "description": "",
+          "price": "30",
+          "priceClass": "0"
+        }
+      ]
+    }
+  }
+}
